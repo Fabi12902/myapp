@@ -21,8 +21,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(methodOverride('_method'));
 
-
-//app.use(API, '/api')
+app.use(API, '/api')
 app.use(index)
 
 

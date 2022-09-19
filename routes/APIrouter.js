@@ -3,7 +3,7 @@ const router = express.Router();
 const Controller = require('../controllers/APIcontroller')
 
 
-//Aca van las rutas de tu API
+router.get('/api', Controller.list); 
 
 
 
